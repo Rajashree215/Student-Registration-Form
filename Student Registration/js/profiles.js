@@ -1,3 +1,4 @@
+// To check values in localstorage
 if(localStorage.length!=0)
 {
     const keys=Object.keys(localStorage);
@@ -117,10 +118,6 @@ if(localStorage.length!=0)
 }
 else
 {
-    // const nodiv=document.createElement('div');
-    // nodiv.innerHTML="No Profiles.<br> Register to view profiles";
-    // nodiv.className='nodiv';
-    // document.body.appendChild(nodiv);
     alert("No Profiles. Register to view profiles");
     window.location.href="./index.html";
 }
