@@ -1,0 +1,35 @@
+html,body
+{
+    background-color: #000000c9 !important;
+    border: 15px solid #fff;
+    height: 100%;
+}
+#wrapper
+{
+    border-color: #fff;
+    text-align: center;
+    margin-top: 13px;
+}
+.form,h2
+{
+    color:#fff;
+}
+h2
+{
+    text-shadow: 1px 1px 4px #ffffff9f;
+}
+label
+{
+    text-align: left;
+    font-size: large;
+    font-weight: 600;
+}
+.form-control
+{
+    width: 250px !important;
+    margin: auto;
+}
+input[type=submit]
+{
+    font-weight: 600;
+}

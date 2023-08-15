@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/edit.css">
+    <style>
+        .card
+        {
+            box-shadow: 0px 4px 8px #00000038;
+            margin-top: 25px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <div class="" id="main"></div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <div class="edit" id="edit">
+        <h2>Edit Profiles</h2> <br>
+        <div class="form form-group">
+            <label for="">Roll No</label>
+            <input type="text" class="form-control" placeholder="Your Roll no..." id="rollno"><br>
+            <label for="">Name</label>
+            <input type="text" class="form-control" id="fname" placeholder="Your Name..."><br>
+            <label for="">D.O.B</label>
+            <input type="date" class="form-control" id="dob"><br>
+            <label for="">Course</label>
+            <input type="text" class="form-control" placeholder="Your course..." id="course"><br>
+            <input type="submit" value="Update" id="editbtn" class="btn btn-dark">
+            <br><br>
+
+            <button id="view" class="btn btn-dark" style="font-weight: 600;">
+                View Profiles
+            </button>
+            <br><br>
+    </div>
+
+
+
+    <!-- <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Radha</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Course:B.E</h6>
+          <p class="card-text"><b>Roll no:</b>15 <br><b> D.O.B:</b>15-07-2002</p>
+          <button class="btn btn-primary">Edit profile</button>
+          <button class="btn btn-primary">Delete profile</button>
+        </div>
+    </div> -->
+    
+    <!-- <script src="./js/index.js"></script>  -->
+    <script src="./js/profiles.js"></script>
+</body>
+</html>
